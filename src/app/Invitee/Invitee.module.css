@@ -1,0 +1,80 @@
+/* Invite.module.css */
+
+.selectHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80%;
+}
+
+.selectHeader h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.CrossIcon {
+    border-radius: 5px;
+    height: 28px;
+    width: 28px;
+}
+
+.selectContainer {
+    margin: 40px;
+}
+
+.selectContainer select {
+    width: 30%;
+    height: 50px;
+}
+
+.selectedEmails {
+    margin-bottom: 20px;
+}
+
+.selectedEmails ul {
+    list-style-type: none;
+    margin: 40px;
+}
+
+.selectedEmails ul li {
+    width: 20%;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: gray;
+}
+
+.submitBtn {
+    display: block;
+    margin: 300px 700px;
+    padding: 10px 20px;
+    background-color: rgb(221, 29, 29);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 10%;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.submitBtn:hover {
+    background: rgb(114, 21, 21);
+}
+
+.containerLabel {
+    display: block;
+    font-size: 20px;
+    color: rgb(112, 109, 109);
+}
+
+.containerselect {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 6px;
+    border-color: rgb(112, 109, 109);
+}

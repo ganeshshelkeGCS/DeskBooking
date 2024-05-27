@@ -1,0 +1,101 @@
+.wrapper {
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 400px;
+    height: 440px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formbox {
+    width: 100%;
+    padding: 40px;
+}
+
+.title1 {
+    font-size: 2em;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 0.8em;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputbox {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    column-gap: .25rem;
+    position: relative;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.inputtag {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.5rem;
+    background: none;
+    color: black;
+}
+
+.value {
+    width: 100%;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: rgb(35, 35, 184);
+}
+
+.rememberforgot {
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    margin-top: 2px;
+
+
+}
+
+.rememberforgot label input {
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+.rememberforgot a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rememberforgot a:hover {
+    text-decoration: underline;
+}

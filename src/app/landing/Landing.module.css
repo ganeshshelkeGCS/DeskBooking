@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 90px;
+  }
+  
+  
+  
+  .cancelButton,
+  .bookButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .rightButtons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+  }
+  
+  .cancelButton {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    margin-right: 120px;
+  }
+  
+  .bookButton {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    margin-right: 120px;
+  }
+
+
+  .bookingInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+  }
+  .bookingInfoChildone {
+    background-color:rgb(234, 234, 234);
+    height: 160px;
+    width: 300px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    margin-right: 6px;
+    border-right: 2px solid red;
+  }
+
+  .bookingInfoChildtwo {
+    background-color:rgb(234, 234, 234);
+    height: 160px;
+    width: 300px;
+    border-radius: 4px;
+    margin-right: 6px;
+    border-right: 2px solid red;
+  }
+
+  .bookingInfoChildone p {
+    margin-left: 10px;
+  }
+
+  .bookingInfoChildtwo p {
+    margin-left: 10px;
+  }
+
+  .bookingInfoChildone p button {
+    background-color: rgb(185, 184, 186);
+    border: none;
+    align-content: center;
+  }
+
+  .bookingInfoChildtwo p button {
+    background-color: rgb(185, 184, 186);
+    border: none;
+    align-content: center;
+  }
